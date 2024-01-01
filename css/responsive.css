@@ -1,0 +1,75 @@
+@media(max-width: 700px) {
+
+
+
+    .nav-link ul li{
+        display: block;
+    }
+
+    .nav-link {
+        position: fixed;
+        background-color: #f44336;
+        height: 100vh;
+        width: 200px !important;
+        top: 0;
+        right: -200px;
+        z-index: 2;
+        transition: 0.5s;
+    }
+
+    .nav-link ul{
+        text-align: left;
+         padding: 2.3rem;
+    }
+
+     nav .fa{
+         visibility: visible !important;
+         color: #fff;
+         font-size: 1.5rem;
+         margin: 1rem;
+         cursor: pointer;
+         display: block;
+    
+     }
+
+    .text-box h1 {
+
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        font-weight: 200;
+        text-transform: capitalize;
+    }
+    
+
+
+    
+
+
+    .row {
+        flex-direction: column;
+    }
+
+   .testimonial-section .testimonial-col {
+       flex-basis: 5%;
+       margin-bottom: 4%;
+       margin-left: 0;
+       padding: 2rem;
+       cursor: pointer;
+
+
+   }
+
+
+
+   .cta h1 {
+
+       font-size: 1.3em;
+       font-weight: 400;
+       
+   }
+
+
+
+
+    
+}
